@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\ONEDRIVE - NSUT.AC.IN\DESKTOP\BESTEX\NETWORK PROTOCOL ANALYZER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ASUS/OneDrive - nsut.ac.in/Desktop/BestEx/Network Protocol Analyzer" "-BC:/Users/ASUS/OneDrive - nsut.ac.in/Desktop/BestEx/Network Protocol Analyzer/build" --check-stamp-file "C:/Users/ASUS/OneDrive - nsut.ac.in/Desktop/BestEx/Network Protocol Analyzer/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

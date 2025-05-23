@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\OneDrive - nsut.ac.in\Desktop\BestEx\Network Protocol Analyzer\build\CMakeFiles\ff8fdedf4fe1a6d1dec78800166c8cf4\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FCE493A2-BF91-3019-AB7F-C4331C7397FD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
